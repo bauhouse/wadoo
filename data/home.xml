@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Home</page-title>
+		<root>.</root>
+		<workspace>workspace</workspace>
+		<root-page>home</root-page>
+		<current-page>home</current-page>
+		<parent-path>/</parent-path>
+	</params>
+	<welcome-pattern>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="5">
+			<title handle="welcome">Welcome</title>
+			<date time="11:16" weekday="5">2012-04-20</date>
+			<publish>No</publish>
+			<html><p class="welcome">
+Collect, test, and experiment with <strong>interface pattern pairings</strong> of <abbr>CSS</abbr> &amp; <abbr>HTML</abbr>. <strong>Pears</strong> is an <a href="https://github.com/simplebits/Pears">open source WordPress theme</a>, enabling people like you to get your own pattern library up and running quickly. It has been ported to <a href="http://getsymphony.com/">Symphony</a> as <a href="https://github.com/bauhouse/sym-pears">an ensemble</a> that you can easily install. It has also been created as plain old HTML. To easily update your site, use an <a href="http://stephenbau.com/articles/xslt-static-site-generator/">XSLT processor as a static site generator</a>. Simply run the <code>build</code> script inside the <code>workspace</code> directory to process the HTML files.</p>
+<ol class="steps">
+	<li><a href="https://github.com/bauhouse/xslt-pears">Grab the repository at GitHub</a>.</li>
+	<li>No further installation necessary on Mac and Linux.</li>
+	<li>Learn about <a href="http://stephenbau.com/articles/preprocessors-for-html/">HTML Preprocessing</a>.</li>
+	<li>Create markup &amp; style patterns.</li>
+	<li>Build.</li>
+</ol></html>
+			<css>p.welcome,
+ol.steps {
+	font-size: 1.6em;
+	line-height: 1.4;
+	}
+p.welcome {
+	margin: 0 0 1.4em;
+	}
+p.welcome abbr {
+	letter-spacing: 3px;
+	}
+ol.steps li {
+	list-style: decimal;
+	margin-left: 1.4em;
+	}</css>
+		</entry>
+	</welcome-pattern>
+</data>

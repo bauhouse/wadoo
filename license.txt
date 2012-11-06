@@ -1,0 +1,7 @@
+Pears is licensed by Dan Cedarholm under a GPL license. See the original license for the Pears theme in this repository:
+
+public/workspace/assets/license.txt
+
+Or view the original license at:
+
+https://github.com/simplebits/Pears/blob/master/license.txt

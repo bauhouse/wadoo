@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap>
+  <resource uri="index.html" template="templates/home.xsl"/>
+  <resource uri="content/index.html" template="templates/patterns.xsl"/>
+  <resource uri="content/article/index.html" template="templates/patterns.xsl" handle="article"/>
+  <resource uri="content/data-table/index.html" template="templates/patterns.xsl" handle="data-table"/>
+  <resource uri="content/footer/index.html" template="templates/patterns.xsl" handle="footer"/>
+  <resource uri="content/slats-html5/index.html" template="templates/patterns.xsl" handle="slats-html5"/>
+  <resource uri="content/slats-text-only/index.html" template="templates/patterns.xsl" handle="slats-text-only"/>
+  <resource uri="content/slats-thumbnails/index.html" template="templates/patterns.xsl" handle="slats-thumbnails"/>
+  <resource uri="content/thumbnail-grid/index.html" template="templates/patterns.xsl" handle="thumbnail-grid"/>
+  <resource uri="forms/index.html" template="templates/patterns.xsl"/>
+  <resource uri="forms/multi-left-labels/index.html" template="templates/patterns.xsl" handle="multi-left-labels"/>
+  <resource uri="forms/multi-top-labels/index.html" template="templates/patterns.xsl" handle="multi-top-labels"/>
+  <resource uri="forms/search/index.html" template="templates/patterns.xsl" handle="search"/>
+  <resource uri="forms/simple-top-labels/index.html" template="templates/patterns.xsl" handle="simple-top-labels"/>
+  <resource uri="lists/index.html" template="templates/patterns.xsl"/>
+  <resource uri="lists/definition/index.html" template="templates/patterns.xsl" handle="definition"/>
+  <resource uri="lists/stats-tabs/index.html" template="templates/patterns.xsl" handle="stats-tabs"/>
+  <resource uri="lists/tags-buttons/index.html" template="templates/patterns.xsl" handle="tags-buttons"/>
+  <resource uri="lists/tags-vertical/index.html" template="templates/patterns.xsl" handle="tags-vertical"/>
+  <resource uri="navigation/index.html" template="templates/patterns.xsl"/>
+  <resource uri="navigation/breadcrumb/index.html" template="templates/patterns.xsl" handle="breadcrumb"/>
+  <resource uri="navigation/horizontal-buttons/index.html" template="templates/patterns.xsl" handle="horizontal-buttons"/>
+  <resource uri="navigation/horizontal-links/index.html" template="templates/patterns.xsl" handle="horizontal-links"/>
+  <resource uri="navigation/horizontal-tabs/index.html" template="templates/patterns.xsl" handle="horizontal-tabs"/>
+  <resource uri="navigation/pagination/index.html" template="templates/patterns.xsl" handle="pagination"/>
+  <resource uri="navigation/vertical-links/index.html" template="templates/patterns.xsl" handle="vertical-links"/>
+</sitemap>

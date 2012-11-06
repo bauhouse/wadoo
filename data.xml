@@ -1,0 +1,1724 @@
+<?xml version="1.0"?>
+<data>
+  <folder path="content">
+    <file filename="article.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Article</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>article</current-page>
+          <current-path>/content/article</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="6">
+            <title handle="article">Article</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:01" weekday="5">2012-04-20</date>
+            <html>
+              <article>
+                <header>
+                  <h2>The Title Goes Here</h2>
+                </header>
+                <aside>
+		This is aside text lorem ipsum dolor sit amet consectetur adipisicing.
+	</aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <a href="#">nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <a href="#">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                <footer>
+		Posted August 22, 2011
+	</footer>
+              </article>
+            </html>
+            <css>article {
+	margin: 0 0 20px 20%;
+	}
+article header h2 {
+	margin: 0 0 15px 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3;
+	}
+article aside {
+	float: left;
+	width: 20%;
+	margin-left: -25%;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #999;
+	}
+@media screen and (max-width: 700px) {
+	article aside {
+		float: none;
+		width: auto;
+		margin: 0 0 20px 0;
+		line-height: 1.5;
+		}
+	}
+article p {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	}
+article footer {
+	font-size: 14px;
+	color: #999;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="data-table.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Data Table</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>data-table</current-page>
+          <current-path>/content/data-table</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="7">
+            <title handle="data-table">Data Table</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:33" weekday="5">2012-04-20</date>
+            <html>
+              <table>
+                <tr>
+                  <th>Type</th>
+                  <th>Date</th>
+                  <th>Rating</th>
+                </tr>
+                <tr>
+                  <td>Cheddar</td>
+                  <td>Jan 3, 2012</td>
+                  <td>&#x2605;&#x2605;&#x2605;</td>
+                </tr>
+                <tr>
+                  <td>Havarti</td>
+                  <td>Jan 12, 2012</td>
+                  <td>&#x2605;&#x2605;&#x2605;&#x2605;</td>
+                </tr>
+                <tr>
+                  <td>Muenster</td>
+                  <td>Jan 20, 2012</td>
+                  <td>&#x2605;&#x2605;</td>
+                </tr>
+                <tr>
+                  <td>Swiss</td>
+                  <td>Jan 22, 2012</td>
+                  <td>&#x2605;</td>
+                </tr>
+                <tr>
+                  <td>Gouda</td>
+                  <td>Jan 25, 2012</td>
+                  <td>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</td>
+                </tr>
+                <tr>
+                  <td>Emmentaler</td>
+                  <td>Jan 27, 2012</td>
+                  <td>&#x2605;&#x2605;&#x2605;</td>
+                </tr>
+              </table>
+            </html>
+            <css>table {
+	margin: 0;
+	padding: 0;
+	}
+table th,
+table td {
+	padding: 10px 20px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	}
+table th {
+	border-width: 2px;
+	}
+table td {
+	color: #666;
+	}
+table tr:last-child th,
+table tr:last-child td {
+	border-bottom: none;
+	}
+table tr:nth-child(even) {
+	background: #eee;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="footer.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Footer</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>footer</current-page>
+          <current-path>/content/footer</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="8">
+            <title handle="footer">Footer</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:37" weekday="5">2012-04-20</date>
+            <html>
+              <footer role="contentinfo">
+                <nav role="navigation">
+                  <ul>
+                    <li>
+                      <a href="#">This is a link</a>
+                    </li>
+                    <li>
+                      <a href="#">Active Link</a>
+                    </li>
+                    <li>
+                      <a href="#">Lorem link</a>
+                    </li>
+                    <li>
+                      <a href="#">Dolor link two</a>
+                    </li>
+                    <li>
+                      <a href="#">Here is a link</a>
+                    </li>
+                  </ul>
+                </nav>
+                <p>Copyright &#xA9; 2012 Company Co. All rights reserved.</p>
+              </footer>
+            </html>
+            <css>footer[role="contentinfo"] {
+	padding: 15px 0 0 0;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+	}
+footer[role="contentinfo"] nav ul li {
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+	}
+footer[role="contentinfo"] nav ul li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+footer[role="contentinfo"] p {
+	margin: 10px 0;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="slats-html5.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Slats (HTML5)</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>slats-html5</current-page>
+          <current-path>/content/slats-html5</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="9">
+            <title handle="slats-html5">Slats (HTML5)</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:37" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="slats">
+                <li class="group">
+                  <a href="#">
+                    <img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+                    <h3>This is the title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#">
+                    <img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+                    <h3>This is the title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#">
+                    <img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+                    <h3>This is the title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                  </a>
+                </li>
+              </ol>
+            </html>
+            <css>ol.slats li {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	}
+ol.slats li:last-child {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	}
+ol.slats li a h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.1;
+	}
+ol.slats li a img {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 4px;
+	border: 1px solid #eee;
+	}
+ol.slats li a:hover img {
+	background: #eee;
+	}
+ol.slats li a p {
+	margin: 0 0 0 76px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #555;
+	}
+ol.slats li a p span.meta {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	}
+@media screen and (max-width: 700px) {
+	ol.slats li a img {
+		display: block;
+		float: none;
+		margin: 0 0 5px 0;
+		}		
+	ol.slats li a p {
+		margin: 0;
+		}
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="slats-text-only.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Slats (text only)</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>slats-text-only</current-page>
+          <current-path>/content/slats-text-only</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="10">
+            <title handle="slats-text-only">Slats (text only)</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:39" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="slats">
+                <li class="group">
+                  <h3>
+                    <a href="#">This is the title</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+                <li class="group">
+                  <h3>
+                    <a href="#">This is the title</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+                <li class="group">
+                  <h3>
+                    <a href="#">This is the title</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+              </ol>
+            </html>
+            <css>ol.slats li {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	}
+ol.slats li:last-child {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	}
+ol.slats li h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1;
+	}
+ol.slats li p {
+	font-size: 14px;
+	line-height: 1.4;
+	}
+ol.slats li p span.meta {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="slats-thumbnails.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Slats (thumbnails)</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>slats-thumbnails</current-page>
+          <current-path>/content/slats-thumbnails</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="11">
+            <title handle="slats-thumbnails">Slats (thumbnails)</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:40" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="slats">
+                <li class="group">
+                  <h3>
+                    <a href="#"><img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+				This is the title
+			</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+                <li class="group">
+                  <h3>
+                    <a href="#"><img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+				This is the title
+			</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+                <li class="group">
+                  <h3>
+                    <a href="#"><img src="../../workspace/assets/images/thumb.png" alt="thumbnail"/>
+				This is the title
+			</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
+                </li>
+              </ol>
+            </html>
+            <css>ol.slats li {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	}
+ol.slats li:last-child {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	}
+ol.slats li h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.1;
+	}
+ol.slats li h3 a img {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 4px;
+	border: 1px solid #eee;
+	}
+ol.slats li h3 a:hover img {
+	background: #eee;
+	}
+ol.slats li p {
+	margin: 0 0 0 76px;
+	font-size: 14px;
+	line-height: 1.4;
+	}
+ol.slats li p span.meta {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="thumbnail-grid.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Thumbnail Grid</page-title>
+          <root>../..</root>
+          <root-page>content</root-page>
+          <current-page>thumbnail-grid</current-page>
+          <current-path>/content/thumbnail-grid</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="12">
+            <title handle="thumbnail-grid">Thumbnail Grid</title>
+            <category>
+              <item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+            </category>
+            <date time="13:44" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="thumb-grid group">
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="../../workspace/assets/images/temp-img.png" alt="thumbnail"/>
+                  </a>
+                </li>
+              </ol>
+            </html>
+            <css>ol.thumb-grid li {
+	float: left;
+	width: 15%;
+	margin: 0 5% 5% 0;
+	}
+ol.thumb-grid li:nth-child(5n) {
+	margin-right: 0;
+	}
+ol.thumb-grid li a img {
+	width: 100%;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+  </folder>
+  <folder path="forms">
+    <file filename="multi-left-labels.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Multi (left labels)</page-title>
+          <root>../..</root>
+          <root-page>forms</root-page>
+          <current-page>multi-left-labels</current-page>
+          <current-path>/forms/multi-left-labels</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="13">
+            <title handle="multi-left-labels">Multi (left labels)</title>
+            <category>
+              <item id="2" handle="forms" section-handle="categories" section-name="Categories">Forms</item>
+            </category>
+            <date time="13:45" weekday="5">2012-04-20</date>
+            <html>
+              <form action="/">
+                <fieldset>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-text"/>
+                  <p class="form-help">This is help text under the form field.</p>
+                </fieldset>
+                <fieldset>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-text"/>
+                </fieldset>
+                <fieldset>
+                  <label for="gender">Gender</label>
+                  <select id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Cylon</option>
+                  </select>
+                </fieldset>
+                <fieldset class="radio">
+                  <label for="notifications">Notifications</label>
+                  <ul>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Send me email</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Don't send me email</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Send me flowers</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <fieldset>
+                  <label for="url">URL</label>
+                  <input type="url" id="url" class="form-text" placeholder="http://yourdomain.com"/>
+                </fieldset>
+                <fieldset>
+                  <label for="bio">Bio</label>
+                  <textarea id="bio"/>
+                </fieldset>
+                <fieldset class="check">
+                  <label><input type="checkbox"/> I accept the terms of service and lorem ipsum.</label>
+                </fieldset>
+                <fieldset class="form-actions">
+                  <input type="submit" value="Submit"/>
+                </fieldset>
+              </form>
+            </html>
+            <css>form fieldset {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	font-size: 14px;
+	border-bottom: 1px solid #eee;
+	}
+form fieldset.form-actions {
+	margin: 0 0 0 20%;
+	padding: 0;
+	border: none;
+	}
+form fieldset.check {
+	padding-left: 20%;	
+	}
+form fieldset label {
+	float: left;
+	width: 20%;
+	margin: 4px 0 5px 0;
+	font-weight: bold;
+	}
+form fieldset.check label {
+	display: inline;
+	float: none;
+	width: auto;
+	font-weight: normal;
+	}
+form fieldset.radio ul li label {
+	display: inline;
+	float: none;
+	width: auto;
+	font-weight: normal;
+	}
+form fieldset input.form-text,
+form fieldset textarea {
+	display: block;
+	width: 50%;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form fieldset input.form-text:focus {
+	border: 1px solid #ccc;
+	background: #fff;
+	}
+form fieldset textarea {
+	height: 150px;
+	}
+form fieldset select {
+	min-width: 25%;
+	margin: 0;
+	}
+form fieldset.radio ul {
+	margin: 5px 0 0 20%;
+	}
+form fieldset.radio ul li {
+	margin: 0 0 5px 0;
+	}
+form fieldset.radio ul li:last-child {
+	margin: 0;
+	}
+form fieldset p.form-help {
+	margin: 5px 0 0 20%;
+	font-size: 12px;
+	color: #999;
+	}
+form input[type="submit"] {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;	
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+	border: 1px solid #bbb;
+	background: #e5e5e5;
+	}
+form input[type="submit"]:active {
+	border: 1px solid #ccc;
+	background: #eee;
+	}
+@media screen and (max-width: 600px) {
+	form fieldset label {
+		display: block;
+		float: none;
+		width: auto;
+		margin: 0 0 5px 0;
+		}
+	form fieldset.form-actions,
+	form fieldset.check,
+	form fieldset.radio ul,
+	form fieldset p.form-help {
+		margin-left: 0;
+		padding-left: 0;
+		}
+	form fieldset input.form-text,
+	form fieldset textarea {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="multi-top-labels.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Multi (top labels)</page-title>
+          <root>../..</root>
+          <root-page>forms</root-page>
+          <current-page>multi-top-labels</current-page>
+          <current-path>/forms/multi-top-labels</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="14">
+            <title handle="multi-top-labels">Multi (top labels)</title>
+            <category>
+              <item id="2" handle="forms" section-handle="categories" section-name="Categories">Forms</item>
+            </category>
+            <date time="13:46" weekday="5">2012-04-20</date>
+            <html>
+              <form action="/">
+                <fieldset>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-text"/>
+                  <p class="form-help">This is help text under the form field.</p>
+                </fieldset>
+                <fieldset>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-text"/>
+                </fieldset>
+                <fieldset>
+                  <label for="gender">Gender</label>
+                  <select id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Cylon</option>
+                  </select>
+                </fieldset>
+                <fieldset class="radio">
+                  <label for="notifications">Notifications</label>
+                  <ul>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Send me email</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Don't send me email</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="notifications"/> Send me flowers</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <fieldset>
+                  <label for="url">URL</label>
+                  <input type="url" id="url" class="form-text" placeholder="http://yourdomain.com"/>
+                </fieldset>
+                <fieldset>
+                  <label for="bio">Bio</label>
+                  <textarea id="bio"/>
+                </fieldset>
+                <fieldset class="check">
+                  <label><input type="checkbox"/> I accept the terms of service and lorem ipsum.</label>
+                </fieldset>
+                <fieldset class="form-actions">
+                  <input type="submit" value="Submit"/>
+                </fieldset>
+              </form>
+            </html>
+            <css>form fieldset {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	}
+form fieldset.form-actions {
+	margin: 0;
+	}
+form fieldset label {
+	display: block;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	}
+form fieldset.check label {
+	display: inline;
+	font-weight: normal;
+	}
+form fieldset.radio ul li label {
+	display: inline;
+	font-weight: normal;
+	}
+form fieldset input.form-text,
+form fieldset textarea {
+	display: block;
+	width: 50%;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form fieldset input.form-text:focus {
+	border: 1px solid #ccc;
+	background: #fff;
+	}
+form fieldset textarea {
+	height: 150px;
+	}
+form fieldset select {
+	min-width: 25%;
+	margin: 0;
+	}
+form fieldset.radio ul {
+	margin-top: 5px;
+	}
+form fieldset.radio ul li {
+	margin: 0 0 5px 0;
+	}
+form fieldset.radio ul li:last-child {
+	margin: 0;
+	}
+form fieldset p.form-help {
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	color: #999;
+	}
+form input[type="submit"] {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;	
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+	border: 1px solid #bbb;
+	background: #e5e5e5;
+	}
+form input[type="submit"]:active {
+	border: 1px solid #ccc;
+	background: #eee;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="search.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Search</page-title>
+          <root>../..</root>
+          <root-page>forms</root-page>
+          <current-page>search</current-page>
+          <current-path>/forms/search</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="15">
+            <title handle="search">Search</title>
+            <category>
+              <item id="2" handle="forms" section-handle="categories" section-name="Categories">Forms</item>
+            </category>
+            <date time="13:47" weekday="5">2012-04-20</date>
+            <html>
+              <form action="/" class="search">
+                <fieldset>
+                  <input type="text" placeholder="Search"/>
+                  <input type="submit" value="Go"/>
+                </fieldset>
+              </form>
+            </html>
+            <css>form.search fieldset input[type="text"] {
+	width: 50%;
+	padding: 10px 14px;
+	font-size: 18px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form.search fieldset input[type="submit"] {
+	padding: 10px 14px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	background: #999;
+	border-radius: 4px;
+	}
+form.search fieldset input[type="submit"]:hover,
+form.search fieldset input[type="submit"]:focus {
+	background: #777;
+	}
+form.search fieldset input[type="submit"]:active {
+	background: #666;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="simple-top-labels.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Simple (top labels)</page-title>
+          <root>../..</root>
+          <root-page>forms</root-page>
+          <current-page>simple-top-labels</current-page>
+          <current-path>/forms/simple-top-labels</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="16">
+            <title handle="simple-top-labels">Simple (top labels)</title>
+            <category>
+              <item id="2" handle="forms" section-handle="categories" section-name="Categories">Forms</item>
+            </category>
+            <date time="13:47" weekday="5">2012-04-20</date>
+            <html>
+              <form action="/">
+                <fieldset>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-text"/>
+                  <p class="form-help">This is help text under the form field.</p>
+                </fieldset>
+                <fieldset>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-text"/>
+                </fieldset>
+                <fieldset class="form-actions">
+                  <input type="submit" value="Submit"/>
+                </fieldset>
+              </form>
+            </html>
+            <css>form fieldset {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	}
+form fieldset.form-actions {
+	margin: 0;
+	}
+form fieldset label {
+	display: block;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	}
+form fieldset input.form-text {
+	display: block;
+	width: 50%;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form fieldset input.form-text:focus {
+	border: 1px solid #ccc;
+	background: #fff;
+	}
+form fieldset p.form-help {
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	color: #999;
+	}
+form input[type="submit"] {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;	
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+	border: 1px solid #bbb;
+	background: #e5e5e5;
+	}
+form input[type="submit"]:active {
+	border: 1px solid #ccc;
+	background: #eee;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+  </folder>
+  <file filename="home.xml">
+    <data>
+      <params>
+        <website-name>Pears</website-name>
+        <page-title>Home</page-title>
+        <root>.</root>
+        <workspace>workspace</workspace>
+        <root-page>home</root-page>
+        <current-page>home</current-page>
+        <parent-path>/</parent-path>
+      </params>
+      <welcome-pattern>
+        <section id="2" handle="patterns">Patterns</section>
+        <entry id="5">
+          <title handle="welcome">Welcome</title>
+          <date time="11:16" weekday="5">2012-04-20</date>
+          <publish>No</publish>
+          <html>
+            <p class="welcome">
+Collect, test, and experiment with <strong>interface pattern pairings</strong> of <abbr>CSS</abbr> &amp; <abbr>HTML</abbr>. <strong>Pears</strong> is an <a href="https://github.com/simplebits/Pears">open source WordPress theme</a>, enabling people like you to get your own pattern library up and running quickly. It has been ported to <a href="http://getsymphony.com/">Symphony</a> as <a href="https://github.com/bauhouse/sym-pears">an ensemble</a> that you can easily install. It has also been created as plain old HTML. To easily update your site, use an <a href="http://stephenbau.com/articles/xslt-static-site-generator/">XSLT processor as a static site generator</a>. Simply run the <code>build</code> script inside the <code>workspace</code> directory to process the HTML files.</p>
+            <ol class="steps">
+              <li><a href="https://github.com/bauhouse/xslt-pears">Grab the repository at GitHub</a>.</li>
+              <li>No further installation necessary on Mac and Linux.</li>
+              <li>Learn about <a href="http://stephenbau.com/articles/preprocessors-for-html/">HTML Preprocessing</a>.</li>
+              <li>Create markup &amp; style patterns.</li>
+              <li>Build.</li>
+            </ol>
+          </html>
+          <css>p.welcome,
+ol.steps {
+	font-size: 1.6em;
+	line-height: 1.4;
+	}
+p.welcome {
+	margin: 0 0 1.4em;
+	}
+p.welcome abbr {
+	letter-spacing: 3px;
+	}
+ol.steps li {
+	list-style: decimal;
+	margin-left: 1.4em;
+	}</css>
+        </entry>
+      </welcome-pattern>
+    </data>
+  </file>
+  <folder path="lists">
+    <file filename="definition.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Definition</page-title>
+          <root>../..</root>
+          <root-page>lists</root-page>
+          <current-page>definition</current-page>
+          <current-path>/lists/definition</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="17">
+            <title handle="definition">Definition</title>
+            <category>
+              <item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+            </category>
+            <date time="15:57" weekday="5">2012-04-20</date>
+            <html>
+              <dl>
+                <dt>The title is here</dt>
+                <dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+                <dt>The title is here</dt>
+                <dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+                <dt>The title is here</dt>
+                <dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+              </dl>
+            </html>
+            <css>dl dt {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.2;
+	}
+dl dd {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #666;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="stats-tabs.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Vertical Links</page-title>
+          <root>../..</root>
+          <root-page>lists</root-page>
+          <current-page>stats-tabs</current-page>
+          <current-path>/lists/stats-tabs</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="18">
+            <title handle="stats-tabs">Stats Tabs</title>
+            <category>
+              <item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+            </category>
+            <date time="15:58" weekday="5">2012-04-20</date>
+            <html>
+              <ul class="stats-tabs">
+                <li>
+                  <a href="#">1,234 <span>donuts</span></a>
+                </li>
+                <li>
+                  <a href="#">567 <span>kayaks</span></a>
+                </li>
+                <li>
+                  <a href="#">23,456 <span>kittens</span></a>
+                </li>
+              </ul>
+            </html>
+            <css>ul.stats-tabs li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #ccc;
+	}
+ul.stats-tabs li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+ul.stats-tabs li a {	
+	display: block;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	}
+ul.stats-tabs li a span {
+	display: block;
+	margin-top: 2px;
+	font-size: 13px;
+	font-weight: normal;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="tags-buttons.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Tags (buttons)</page-title>
+          <root>../..</root>
+          <root-page>lists</root-page>
+          <current-page>tags-buttons</current-page>
+          <current-path>/lists/tags-buttons</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="20">
+            <title handle="tags-buttons">Tags (buttons)</title>
+            <category>
+              <item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+            </category>
+            <date time="16:08" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="tags">
+                <li>
+                  <a href="#">cheddar</a>
+                </li>
+                <li>
+                  <a href="#">swiss</a>
+                </li>
+                <li>
+                  <a href="#">havarti</a>
+                </li>
+                <li>
+                  <a href="#">gouda</a>
+                </li>
+                <li>
+                  <a href="#">manchego</a>
+                </li>
+              </ol>
+            </html>
+            <css>ol.tags li {
+	float: left;
+	margin: 0 5px 5px 0;
+	font-size: 14px;
+	}
+ol.tags li a {
+	float: left;
+	padding: 5px 10px 6px 25px;
+	font-weight: normal;
+	color: #fff;
+	background: #bbb url(/wp-content/themes/pears/images/tag-bg.png) no-repeat 0 50%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+	}
+ol.tags li a:hover,
+ol.tags li a:focus {
+	background-color: #999;
+	}
+ol.tags li a:active {
+	background-color: #ccc;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="tags-vertical.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Tags (buttons)</page-title>
+          <root>../..</root>
+          <root-page>lists</root-page>
+          <current-page>tags-vertical</current-page>
+          <current-path>/lists/tags-vertical</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="21">
+            <title handle="tags-vertical">Tags (vertical)</title>
+            <category>
+              <item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+            </category>
+            <date time="16:13" weekday="5">2012-04-20</date>
+            <html>
+              <ol class="tags">
+                <li>
+                  <a href="#"><span class="meta">123</span> cheddar</a>
+                </li>
+                <li>
+                  <a href="#"><span class="meta">34</span> swiss</a>
+                </li>
+                <li>
+                  <a href="#"><span class="meta">1,234</span> havarti</a>
+                </li>
+                <li>
+                  <a href="#"><span class="meta">8</span> gouda</a>
+                </li>
+                <li>
+                  <a href="#"><span class="meta">56</span> manchego</a>
+                </li>
+              </ol>
+            </html>
+            <css>ol.tags {
+	width: 25%;
+	}
+ol.tags li a {
+	display: block;
+	padding: 4px 8px;
+	}
+ol.tags li a span.meta {
+	float: right;
+	color: #bbb;
+	}
+ol.tags li a:hover {
+	background: #f0f0f0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+  </folder>
+  <folder path="navigation">
+    <file filename="breadcrumb.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Breadcrumb</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>breadcrumb</current-page>
+          <current-path>/navigation/breadcrumb</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="22">
+            <title handle="breadcrumb">Breadcrumb</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:14" weekday="5">2012-04-20</date>
+            <html>
+              <nav class="breadcrumb"><a href="#">This is a link</a> /
+	<a href="#">Lorem link</a> / 
+	<a href="#">Dolor link two</a> /
+	<a href="#">Here is a link</a> /
+	<strong>Active Link</strong>
+</nav>
+            </html>
+            <css>nav.breadcrumb {
+	font-size: 14px;
+	color: #ccc;
+	}
+nav.breadcrumb a {
+	margin: 0 5px;
+	text-decoration: none;
+	color: #999;
+	}
+nav.breadcrumb a:first-child {
+	margin-left: 0;
+	}
+nav.breadcrumb a:hover,
+nav.breadcrumb a:focus {
+	color: #333;
+	}
+nav.breadcrumb a:active {
+	color: #666;
+	}
+nav.breadcrumb strong {
+	margin-left: 5px;
+	font-weight: bold;
+	color: #333;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="horizontal-buttons.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Horizontal Buttons</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>horizontal-buttons</current-page>
+          <current-path>/navigation/horizontal-buttons</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="23">
+            <title handle="horizontal-buttons">Horizontal Buttons</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:14" weekday="5">2012-04-20</date>
+            <html>
+              <nav role="navigation">
+                <ul>
+                  <li>
+                    <a href="#">This is a link</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">Active Button</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem link</a>
+                  </li>
+                  <li>
+                    <a href="#">Dolor link two</a>
+                  </li>
+                  <li>
+                    <a href="#">Here is a link</a>
+                  </li>
+                </ul>
+              </nav>
+            </html>
+            <css>nav[role="navigation"] li {
+	float: left;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 8px 12px;
+	text-decoration: none;
+	color: #fff;
+	background: #bbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	background: #999;
+	}
+nav[role="navigation"] li a:active {
+	background: #888;
+	}
+nav[role="navigation"] li.active a {
+	color: #fff;
+	background: #666;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="horizontal-links.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Horizontal Links</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>horizontal-links</current-page>
+          <current-path>/navigation/horizontal-links</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="24">
+            <title handle="horizontal-links">Horizontal Links</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:15" weekday="5">2012-04-20</date>
+            <html>
+              <nav role="navigation">
+                <ul>
+                  <li>
+                    <a href="#">This is a link</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">Active Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem link</a>
+                  </li>
+                  <li>
+                    <a href="#">Dolor link two</a>
+                  </li>
+                  <li>
+                    <a href="#">Here is a link</a>
+                  </li>
+                </ul>
+              </nav>
+            </html>
+            <css>nav[role="navigation"] li {
+	float: left;
+	font-size: 14px;
+	border-right: 1px solid #ddd;
+	}
+nav[role="navigation"] li:last-child {
+	border-right: none;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #999;
+	border-radius: 4px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	color: #333;
+	}
+nav[role="navigation"] li a:active {
+	color: #666;
+	}
+nav[role="navigation"] li.active a {
+	font-weight: bold;
+	color: #333;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="horizontal-tabs.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Horizontal Tabs</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>horizontal-tabs</current-page>
+          <current-path>/navigation/horizontal-tabs</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="25">
+            <title handle="horizontal-tabs">Horizontal Tabs</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:15" weekday="5">2012-04-20</date>
+            <html>
+              <nav role="navigation">
+                <ul>
+                  <li>
+                    <a href="#">This is a link</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">Active Tab</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem link</a>
+                  </li>
+                  <li>
+                    <a href="#">Dolor link two</a>
+                  </li>
+                  <li>
+                    <a href="#">Here is a link</a>
+                  </li>
+                </ul>
+              </nav>
+            </html>
+            <css>nav[role="navigation"] li {
+	float: left;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;
+	background: #bbb;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	background: #999;
+	}
+nav[role="navigation"] li a:active {
+	background: #888;
+	}
+nav[role="navigation"] li.active a {
+	color: #fff;
+	background: #666;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="pagination.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Pagination</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>pagination</current-page>
+          <current-path>/navigation/pagination</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="26">
+            <title handle="pagination">Pagination</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:16" weekday="5">2012-04-20</date>
+            <html>
+              <nav class="page">
+                <ul>
+                  <li class="page-prev">
+                    <a href="#">&#x2190; Prev</a>
+                  </li>
+                  <li>
+                    <a href="#">1</a>
+                  </li>
+                  <li>
+                    <a href="#">2</a>
+                  </li>
+                  <li>
+                    <a href="#">3</a>
+                  </li>
+                  <li class="page-next">
+                    <a href="#">Next &#x2192;</a>
+                  </li>
+                </ul>
+              </nav>
+            </html>
+            <css>nav.page ul {
+	text-align: center;
+	}
+nav.page ul li {
+	display: inline;
+	margin: 0 4px 0 0;
+	}
+nav.page ul li a {
+	padding: 3px 8px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+background: #fff;
+	border-radius: 4px;
+	}
+nav.page ul li a:hover,
+nav.page ul li a:focus {
+	background: #f0f0f0;
+	border-color: #ccc;
+	}
+nav.page ul li a:active {
+	background: #fff;
+	border-color: #ddd;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+    <file filename="vertical-links.xml">
+      <data>
+        <params>
+          <website-name>Pears</website-name>
+          <page-title>Vertical Links</page-title>
+          <root>../..</root>
+          <root-page>navigation</root-page>
+          <current-page>pagination</current-page>
+          <current-path>/navigation/pagination</current-path>
+        </params>
+        <patterns>
+          <section id="2" handle="patterns">Patterns</section>
+          <entry id="27">
+            <title handle="vertical-links">Vertical Links</title>
+            <category>
+              <item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+            </category>
+            <date time="16:16" weekday="5">2012-04-20</date>
+            <html>
+              <nav role="navigation">
+                <ul>
+                  <li>
+                    <a href="#">This is a link</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">Active Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Lorem link</a>
+                  </li>
+                  <li>
+                    <a href="#">Dolor link two</a>
+                  </li>
+                  <li>
+                    <a href="#">Here is a link</a>
+                  </li>
+                </ul>
+              </nav>
+            </html>
+            <css>nav[role="navigation"] ul {
+	width: 25%;
+	}
+nav[role="navigation"] ul li a {
+	display: block;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	}
+nav[role="navigation"] ul li a:focus,
+nav[role="navigation"] ul li a:hover {
+	background: #eee;
+	}
+nav[role="navigation"] ul li a:active {
+	background: #ddd;
+	}</css>
+          </entry>
+        </patterns>
+      </data>
+    </file>
+  </folder>
+</data>
