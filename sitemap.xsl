@@ -4,9 +4,6 @@
 
 <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
-<!-- Import XML data for section navigation -->
-<xsl:param name="section-navigation"/>
-
 <xsl:template match="/">
   <sitemap>
     <xsl:apply-templates select="data/file" mode="index"/>
